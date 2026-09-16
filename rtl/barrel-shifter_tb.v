@@ -16,7 +16,8 @@ module barrel-shifter_tb;
         .direction(direction),
         .data_out(data_out)
     );
-
+    
+// initial block
     initial begin
 
         $monitor(
